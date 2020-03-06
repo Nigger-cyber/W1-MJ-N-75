@@ -1,0 +1,22 @@
+body{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify
+    max-width: 600px;
+    color: rgb(83, 82, 81);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+    width: 250px;
+}
+
+#titulo_principal{
+    font-size: 30px;
+}
+
+a{
+    color: rgb(192, 128, 10);
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,1 @@
+console.log("Bienvenido Lucas a la clase nro. 2")

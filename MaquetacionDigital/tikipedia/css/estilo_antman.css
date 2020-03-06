@@ -1,0 +1,49 @@
+body{
+    background-image: url("../img/fondo_antman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+        
+}
+
+#logo{
+    width: 245px;
+    display: block;
+}
+
+#titulo{
+    font-size: 30px;
+    text-align: center;
+}
+
+a{
+    color: #868a93;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #9d152c;
+}
+
+/* CAJAS FLOTANTES */
+#menu{
+    float: left;
+    background-color: violet;
+    width: 30%;
+    box-sizing: border-box;
+    color: black;
+}
+#contenido{
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    width: 70%;    
+    background-color: rgba(0, 0, 0, 0.65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 8px solid #9d152c;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}

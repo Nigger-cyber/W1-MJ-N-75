@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>AdvinApp!</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>AdivinApp!</h1>
+		<p id="frase">Desafía Tu Destino</p>
+		
+		<div id="contenedor">
+			<p class="instrucciones">Tu pregunta fué:</p>
+			<p class="instrucciones">{{PREGUNTA}}</p>
+			<img src="img/sombrero_bruja.png" />
+            <p class="instrucciones" id="respuesta">{{RESPUESTA}}</p>
+            
+            <form method="post" action="http//localhost/respuesta">
+                <input id="pregunta" type="text" name="pregunta">
+                <input id="submit" type="boton" value="enviar">
+            </form>
+		</div>
+​
+	<p id="footer">
+		AdvinApp es una marca registrada de Azar Corp - All rights reserved 2020
+	</p>
+​
+	</body>
+</html>
